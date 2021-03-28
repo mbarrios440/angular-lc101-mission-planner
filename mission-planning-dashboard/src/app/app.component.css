@@ -1,4 +1,8 @@
 .box {
     display: flex;
     padding: 10px;
- }
+    border: 5px solid midnightblue;
+}
+.box > * {
+    flex: 1 1 0;
+}
